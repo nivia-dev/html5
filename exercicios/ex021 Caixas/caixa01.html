@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+            a forma abaixo é a simplificada dos 3 elementos acima*/
+
+            border: 10px solid darkslategray;
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; 
+            a forma abaixo é a simplificada */
+
+            padding: 10px; /* os 4 lados iguais ou pode colocar 2 valores um para baixo e cima e o outro direita e esquerda */
+
+            /*margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            a forma abaixo e a simplificada*/
+
+            margin: 20px 20px 40px 20px; /*também pode colocar 20px auto 40px auto. Os autos vao ficar centralizados*/
+
+            /*Fica dentro da margem
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+            forma abaixo é a simplificada */
+
+            outline: 5px dashed salmon;
+
+        }
+
+        a {
+            border: 10px solid red;
+
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafo tambpem sao exemplors de box-level, mas os <a href="#">links são exemplos de caixas inline-level.</a>Vamos ver como tudo isso funciona</p>
+</body>
+</html>
