@@ -73,7 +73,7 @@ section.normal {
 section.imagem {
     background-color: rgb(37, 35, 35);
     color: white;
-    box-shadow: inset 6ox 6px 13px 0px rgb(0, 0, 0, 0.473);
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
 }
